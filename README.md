@@ -29,3 +29,6 @@ streamlit run Streamlit.py
 -3 Interact with Welly ChatBot through the provided chat interface.
 
 #Screenshots
+![Alt text](https://imgur.com/a/muQTvjW)
+
+
