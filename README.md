@@ -22,7 +22,7 @@ pip install -r requirements.txt
 export REPLICATE_API_TOKEN="your_replicate_api_token"
 ```
 -2 Run the Streamlit app:
-```
+
 ```bash
 streamlit run your_app_file.py
 ```
