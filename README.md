@@ -13,8 +13,7 @@ Welly ChatBot is a mental health assistant built with Streamlit and Replicate. I
 To run the project locally, make sure you have Python installed. Then, install the required packages:
 
 ```bash
-pip install -r requirements.txt
-```
+pip install -r requirements.txt```
 # Usage
 -1 Set the Replicate API token in your environment:
 
