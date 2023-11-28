@@ -29,5 +29,5 @@ jobs:
 
     - name: Deploy Flask app
       run: |
-        python your_flask_app_script.py  # Replace with the actual script name
+        python API.py  # Replace with the actual script name
 
