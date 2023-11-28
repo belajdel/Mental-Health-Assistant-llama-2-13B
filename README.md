@@ -28,6 +28,6 @@ streamlit run Streamlit.py
 ```
 -3 Interact with Welly ChatBot through the provided chat interface.
 
-#Screenshots
+# Screenshots
 ![EXAMPLE](https://github.com/belajdel/Mental-Health-Assistant-llama-2-13B/blob/main/Capture.PNG)  
 
