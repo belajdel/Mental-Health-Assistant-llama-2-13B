@@ -1,0 +1,35 @@
+name: Build Windows App
+
+on:
+  push:
+    branches:
+      - main  # Change this to your main branch name
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x  # Specify your Python version
+
+    - name: Install Dependencies
+      run: |
+        pip install -r requirements.txt  # Replace with your requirements file if you have one
+
+    - name: Build Windows App
+      run: |
+        pip install pyinstaller
+        pyinstaller --onefile your_script_name.py
+      working-directory: ${{ github.workspace }}
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: windows-app
+        path: dist/  # Change this if your PyInstaller output folder is different
