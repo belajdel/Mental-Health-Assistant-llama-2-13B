@@ -4,7 +4,7 @@ import time
 import replicate
 import os
 # Set Replicate API token
-os.environ["REPLICATE_API_TOKEN"] = "01c6df94ecaf955997fd6cb0ad0ab00eead53f47"
+os.environ["REPLICATE_API_TOKEN"] = "r8_9TQIIw4x4IrdtXpexi6uTOWseI4lXUP2aNJjl"
 
 
 # Prompts
